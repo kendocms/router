@@ -1,0 +1,42 @@
+{
+    "name": "kendocms/router",
+    "description": "Router module for KendoCMS.",
+    "keywords": [
+        "rest",
+        "router",
+        "leaf",
+        "php",
+        "framework",
+        "kendocms"
+    ],
+    "homepage": "https://kendocms.org",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Beeler",
+            "email": "will@williambeeler.com",
+            "homepage": "https://williambeeler.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kendocms\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+    "require": {
+        "leafs/http": "*",
+        "leafs/anchor": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
